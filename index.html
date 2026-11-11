@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nissan GT-R</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body class="min-h-screen flex flex-col bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Header Navbar -->
+    <header class="sticky top-0 z-50 bg-neutral-900 text-white px-[5%] py-4 flex justify-between items-center shadow-md">
+        <div class="text-2xl font-extrabold text-red-600 tracking-wider">GT-R</div>
+        <nav>
+            <ul class="flex gap-6">
+                <li><a href="#pengenalan" class="text-white hover:text-red-600 font-medium transition-colors">About</a></li>
+                <li><a href="#fitur" class="text-white hover:text-red-600 font-medium transition-colors">Feature</a></li>
+                <li><a href="#galeri" class="text-white hover:text-red-600 font-medium transition-colors">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flex-1">
+        <!-- Section 1 -->
+        <section id="pengenalan" class="bg-white py-20 px-[5%] flex items-center justify-center min-h-[40vh] text-center">
+            <div class="max-w-3xl mx-auto">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-neutral-900 mb-6">Nissan GT-R: The Godzilla</h1>
+                <p class="text-lg text-neutral-600 leading-relaxed">
+                    The Nissan GT-R is a legendary sport car that combines exceptional performance with twin turbocharged v6 engine technology. Known worldwide by the nickname "Godzilla", the car continues to set the gold standard in aerodynamic performance and speed engineering.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section id="fitur" class="bg-slate-100 py-20 px-[5%]">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-neutral-900 mb-12">Feature & Specification</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-sm border-t-4 border-red-600 text-center hover:-translate-y-1 transition-transform duration-300">
+                    <h3 class="text-xl font-bold text-neutral-900 mb-3">VR38DETT Engine</h3>
+                    <p class="text-neutral-600 text-sm leading-relaxed">The 3.8 Liter twin-turbo V6 engine. Hand assembled by Takumi (The Master Craftsmen) produces more than 565 horsepower..</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm border-t-4 border-red-600 text-center hover:-translate-y-1 transition-transform duration-300">
+                    <h3 class="text-xl font-bold text-neutral-900 mb-3">AWD ATTESA E-TS</h3>
+                    <p class="text-neutral-600 text-sm leading-relaxed">An intelligent all wheel drive system dynamically distributes power for maximum traction in every turn.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm border-t-4 border-red-600 text-center hover:-translate-y-1 transition-transform duration-300">
+                    <h3 class="text-xl font-bold text-neutral-900 mb-3">Aerodynamic Design</h3>
+                    <p class="text-neutral-600 text-sm leading-relaxed">Engineered to slice through the wind, maximizing downforce while keeping drag remarkably low.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section id="galeri" class="bg-white py-20 px-[5%]">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-neutral-900 mb-12">Gallery</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div class="overflow-hidden rounded-lg shadow-md">
+                    <img src="asset/Nissan GTR.jpg" alt="Nissan GT-R" class="w-full h-60 object-cover hover:scale-105 transition-transform duration-300 cursor-pointer">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-md">
+                    <img src="asset/GTR Engine.jpg" alt="GT-R Engine" class="w-full h-60 object-cover hover:scale-105 transition-transform duration-300 cursor-pointer">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-md">
+                    <img src="asset/GTR Aero.jpg" alt="GT-R Aerodynamic" class="w-full h-60 object-cover hover:scale-105 transition-transform duration-300 cursor-pointer">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-neutral-900 text-neutral-300 py-12 px-[5%] flex flex-col md:flex-row justify-between items-start gap-8">
+        <div class="flex-1 min-w-[250px]">
+            <div class="text-2xl font-extrabold text-red-600 mb-2">GT-R</div>
+        </div>
+        
+        <div class="flex-1 min-w-[250px] text-left md:text-center">
+            <p class="text-sm leading-relaxed text-neutral-400">Inovasi, dan performa luar biasa dari Nissan GT-R. Copyright 2026</p>
+        </div>
+        
+        <div class="flex-1 min-w-[250px] md:text-right">
+            <h4 class="text-white font-semibold text-base mb-3">Contact Information</h4>
+            <ul class="space-y-1 text-sm text-neutral-400">
+                <li>Email: info@nissangtr.com</li>
+                <li>Address: Nishi Ward, Yokohama, Kanagawa, Japan</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- End -->
+
+</body>
+</html>
