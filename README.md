@@ -1,14 +1,15 @@
 # GT-R - Landing Page
 
-Halaman web statis pengenalan mobil sport legendaris **Nissan GT-R** yang dibangun menggunakan HTML5 semantik dan Tailwind CSS CLI.
+Halaman web statis pengenalan mobil sport legendaris **Nissan GT-R** yang dibangun menggunakan React semantik dan Tailwind CSS. Proyek ini merupakan hasil migrasi dari halaman web statis untuk mendalami React Hooks (`useState` `useEffect`)
 
 ---
 
 ## Teknologi yang Digunakan
 
-- **HTML**: Menggunakan tag semantik (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`).
-- **Tailwind CSS**: CSS framework berbasis untuk styling.
-- **Struktur Halaman**: Header, section pengenalan, kartu spesifikasi/fitur, galeri visual, dan footer.
+- **React**: Vite.
+- **Javascript (ES6+)**
+- **Tailwind CSS**
+- **HTML5**
 
 ---
 
@@ -23,13 +24,14 @@ git clone [https://github.com/Daitoryo/nissan-gtr-web.git](https://github.com/Da
 cd nissan-gtr-web
 ```
 
-### 3. Cara Running Tailwind
+### 3. Install Depedency
 ```bash
-npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+npm install
 ```
-Alternatif jika npx tidak dapat dijalankan di dalam terminal: 
+
+### 4. Cara Running React
 ```bash
-npx.cmd @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+npx run dev
 ```
 Jika kendala larangan menjalankan command di terminal (aturan Execution Policy) lakukan:
 1. Buka powershell

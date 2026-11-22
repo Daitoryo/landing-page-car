@@ -1,0 +1,30 @@
+[
+  {
+    "id": "gtr32",
+    "code": "Skyline GT-R R32",
+    "year": "1989 - 1994",
+    "engine": "RB26DETT 2.6L Twin-Turbo",
+    "power": "280 HP"
+  },
+  {
+    "id": "gtr33",
+    "code": "Skyline GT-R R33",
+    "year": "1995 - 1998",
+    "engine": "RB26DETT 2.6L Twin-Turbo",
+    "power": "280 HP"
+  },
+  {
+    "id": "gtr34",
+    "code": "Skyline GT-R R34",
+    "year": "1999 - 2002",
+    "engine": "RB26DETT 2.6L Twin-Turbo",
+    "power": "280 HP (Nismo Z-Tune: 500 HP)"
+  },
+  {
+    "id": "gtr35",
+    "code": "Nissan GT-R R35",
+    "year": "2007 - 2025",
+    "engine": "VR38DETT 3.8L V6 Twin-Turbo",
+    "power": "565 - 600 HP"
+  }
+]
